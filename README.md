@@ -42,9 +42,27 @@ SuturaApp adalah aplikasi **manajemen usaha jahit / tailor** berbasis **Flutter*
 
 ---
 
-## 📂 Struktur Proyek (Ringkas)
+## 📂 Struktur Proyek
+
+Struktur folder utama pada aplikasi **SuturaApp** disusun agar rapi, terstruktur, dan mudah dikembangkan.
 
 ```
+lib/
+├── core/                 # Tema, style, konstanta, utilitas global
+├── data/
+│   ├── models/           # Model data (pelanggan, pesanan, keuangan, dll)
+│   └── repository/       # Logic akses database / service
+├── modules/
+│   ├── dashboard/        # Halaman dashboard utama
+│   ├── pelanggan/        # Modul pelanggan & ukuran
+│   ├── order/            # Modul pesanan jahit
+│   ├── keuangan/         # Modul keuangan & laporan
+│   ├── lainnya/          # Modul tambahan / pendukung
+│   └── splashscreen/     # Splash screen & login/logout
+├── navigations/          # Routing & navigasi aplikasi
+└── main.dart             # Entry point aplikasi
+```
+
 lib/
 ├── core/            # Tema, style, utilitas
 ├── data/
@@ -55,18 +73,18 @@ lib/
 │   ├── pesanan/     # Halaman & logic pesanan
 │   └── keuangan/    # Halaman keuangan & laporan
 └── main.dart
-```
+
+````
 
 ---
 
 ## 🚀 Cara Menjalankan Aplikasi
 
 ### 1. Clone Repository
-
 ```bash
 git clone https://github.com/username/suturaapp.git
 cd suturaapp
-```
+````
 
 ### 2. Install Dependency
 
