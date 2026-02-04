@@ -4,6 +4,8 @@ SuturaApp adalah aplikasi **manajemen usaha jahit / tailor** berbasis **Flutter*
 
 ---
 
+Link gdrive apk: https://drive.google.com/drive/folders/1lhUwNklgWoKZLHnZt0h_uk9EfhQrdVTS?hl=id
+
 ## ✨ Fitur Utama
 
 ### 👤 Manajemen Pelanggan
